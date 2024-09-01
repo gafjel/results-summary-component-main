@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+}
+
+body{
+    width: 900px;
+    padding: 135px;
+    box-sizing: border-box;
+    background-color: hsl(0, 0%, 100%);
+    margin: 0 auto;
+}
+
+.gen-container{
+    display: flex;
+    width: 70%;
+    background-color: hsla(0, 0%, 100%, 70%);
+    box-shadow: 0 5px 4px 1px hsl(241, 100%, 89%);
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.right-section{
+    width: 50%;
+    padding: 20px;
+}
+
+.left-section{
+    width: 50%;
+    background-color: hsla(241, 81%, 54%, 80%);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+}
+
+.circle{
+    padding: 30px 50px 50px 50px;
+    background-color: hsla(256, 72%, 46%, 1);
+    width: 30%;
+    height: 20%;
+    border-radius: 100px;
+    margin: 30px 0 20px 20px;
+}
+
+h1{
+    font-size: 3.5rem;
+}
+
+.circle p{
+    font-size: 0.5rem;
+}
+
+.result{
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+h3{
+    font-size: 1rem;
+    margin: 20px;
+}
+
+p{
+    font-size: 0.8rem;
+}
+
+h4{
+    margin: 10px 0 25px 0;
+}
+
+.reaction{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: hsla(0, 100%, 67%, 0.1);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.reaction1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: hsl(0, 100%, 67%);
+}
+
+.reaction1 p, .memory1 p, .verbal1 p, .visual1 p{
+    margin-left: 10px;
+    font-size: 0.7rem;
+    font-weight: bold;
+    color: hsl(0, 100%, 67%);
+}
+
+.reaction2 span, .memory2 span, .verbal2 span, .visual2 span{
+    color: hsla(224, 30%, 27%, 0.6);
+}
+
+.reaction2 p, .memory2 p, .verbal2 p, .visual2 p{
+    color: hsl(224, 30%, 27%);
+    font-weight: bold;
+}
+
+img{
+    width:15px;
+}
+
+.Memory{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: hsla(39, 100%, 56%, 0.1);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 0;
+}    
+
+.memory1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: hsl(39, 100%, 56%);
+}
+
+.Verbal{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: hsla(166, 100%, 37%, 0.1);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.verbal1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: hsl(166, 100%, 37%);
+}
+
+.Visual{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: hsla(234, 85%, 45%, 0.1);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.visual1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: hsl(234, 85%, 45%);
+}
+
+button{
+    width: 100%;
+    margin: 15px 0;
+    border-radius: 15px;
+    border: none;
+    background-color: hsl(224, 30%, 27%);
+    color: hsl(0, 0%, 100%);
+    font-size: 0.5rem;
+    padding: 10px;
+}
